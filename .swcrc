@@ -1,0 +1,16 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": false,
+      "dynamicImport": false
+    },
+    "transform": {},
+    "target": "es2024",
+    "keepClassNames": true
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "minify": false
+}

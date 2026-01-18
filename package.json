@@ -1,0 +1,61 @@
+{
+  "name": "express-swc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --ext .ts --fix",
+    "lint:check": "eslint . --ext .ts",
+    "tsc:check": "tsc --noEmit",
+    "swc:build": "swc src -d dist",
+    "clean": "rimraf dist",
+    "start": "cross-env PORT=3000 node dist/src/index.js",
+    "start:dev": "npm run swc:build && npm run start",
+    "start:pro": "npm run tsc:check && npm run swc:build && npm run start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhakar-jonnakuti/express-swc.git"
+  },
+  "keywords": [
+    "express",
+    "swc",
+    "typescript"
+  ],
+  "author": "sudhkar jonnakuti",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sudhakar-jonnakuti/express-swc/issues"
+  },
+  "homepage": "https://github.com/sudhakar-jonnakuti/express-swc#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@swc/cli": "^0.7.10",
+    "@swc/core": "^1.15.8",
+    "@swc/jest": "^0.2.39",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.9",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "jest": "^30.2.0",
+    "node-mocks-http": "^1.17.2",
+    "prettier": "^3.8.0",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.0"
+  }
+}
